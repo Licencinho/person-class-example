@@ -6,8 +6,10 @@ class Person {
     sayHello(){
         console.log('My name is ' + this.name);
     }
+
+    sayBye(){
+        console.log('Bye');
+    }
 }
 
-var person = new Person('Alonso', 'Olate');
-
-person.sayHello();
+module.exports = Person;
